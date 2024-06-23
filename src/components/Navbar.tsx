@@ -3,6 +3,7 @@
 import React from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { MdOutlineMarkUnreadChatAlt } from "react-icons/md";
 const menuItems = [
   {
@@ -41,10 +42,10 @@ export default function Navbar() {
         <div className="inline-flex items-center space-x-2">
           <div className="ml-2 mt-2 ">
             <span className="relative inline-block">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full border-2 border-slate-200"
                 src="https://images.pexels.com/photos/21050507/pexels-photo-21050507/free-photo-of-a-woman-with-an-umbrella-and-a-black-bag.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                alt="Dan_Abromov"
+                alt="Nitin_Kumar"
               />
               <span className="absolute bottom-0 right-0 block h-2.5 w-2.5 rounded-full bg-green-600 ring-2 ring-white"></span>
             </span>
@@ -82,10 +83,10 @@ export default function Navbar() {
                   <div className="inline-flex items-center space-x-2">
                     <div className="ml-2 mt-2 ">
                       <span className="relative inline-block">
-                        <img
+                        <Image
                           className="h-10 w-10 rounded-full"
                           src="https://images.pexels.com/photos/21050507/pexels-photo-21050507/free-photo-of-a-woman-with-an-umbrella-and-a-black-bag.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                          alt="Dan_Abromov"
+                          alt="Nitin_Kumar"
                         />
                         <span className="absolute bottom-0 right-0 block h-2.5 w-2.5 rounded-full bg-green-600 ring-2 ring-white"></span>
                       </span>

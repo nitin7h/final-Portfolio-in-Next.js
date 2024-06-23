@@ -1,14 +1,6 @@
 import React from "react";
-import { DollarSign, Zap, Moon, Filter } from "lucide-react";
-import { FaShoppingCart } from "react-icons/fa";
-import {
-  Copy,
-  ArrowRight,
-  ShoppingCart,
-  Database,
-  GithubIcon,
-  LockIcon,
-} from "lucide-react";
+
+import { Database, GithubIcon, LockIcon } from "lucide-react";
 import { CgWebsite } from "react-icons/cg";
 import { IoFingerPrintOutline } from "react-icons/io5";
 import { GrVmMaintenance } from "react-icons/gr";
@@ -49,10 +41,11 @@ export default function Services() {
               Services
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-gray-950 md:text-xl">
-              Whether you're a small business owner, entrepreneur, or
-              established enterprise, I'm here to help you succeed in the
+              Whether you&#39;re a small business owner, entrepreneur, or
+              established enterprise, I&#39;m here to help you succeed in the
               digital world. Get in touch today to discuss your project
-              requirements, and let's collaborate to bring your vision to life.
+              requirements, and let&#39;s collaborate to bring your vision to
+              life.
             </p>
           </div>
 
@@ -70,8 +63,8 @@ export default function Services() {
                 to streamline processes, enhance productivity, and deliver
                 exceptional user experiences. Whether you need a customer
                 relationship management (CRM) system, project management tool,
-                or online booking platform, I'll develop a scalable and robust
-                solution that meets your specific requirements.
+                or online booking platform, I&#39;ll develop a scalable and
+                robust solution that meets your specific requirements.
               </p>
               {/* <div className="flex justify-between">
                 <div>
@@ -107,8 +100,8 @@ export default function Services() {
                 Ensure the reliability, security, and performance of your data
                 with expert database management services. From designing
                 database schemas to optimizing queries and ensuring data
-                integrity, I'll help you leverage the full potential of your
-                databases to support your application's requirements and
+                integrity, I&#39;ll help you leverage the full potential of your
+                databases to support your application&#39;s requirements and
                 scalability.
               </p>
             </div>
@@ -125,9 +118,9 @@ export default function Services() {
                 Ensure your website remains secure, up-to-date, and running
                 smoothly with ongoing maintenance and support services. From
                 software updates and security patches to performance
-                optimization and troubleshooting, I'll take care of all aspects
-                of website maintenance so you can focus on your core business
-                activities.
+                optimization and troubleshooting, I&#39;ll take care of all
+                aspects of website maintenance so you can focus on your core
+                business activities.
               </p>
             </div>
             {/* End  */}

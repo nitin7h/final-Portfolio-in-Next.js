@@ -1,6 +1,5 @@
 import React from "react";
-import { DollarSign, Zap, Moon, Filter } from "lucide-react";
-import { FaShoppingCart, FaFingerprint, FaTelegramPlane } from "react-icons/fa";
+import { FaFingerprint, FaTelegramPlane } from "react-icons/fa";
 import { MdOutlineMarkUnreadChatAlt } from "react-icons/md";
 import { SiBlockchaindotcom } from "react-icons/si";
 
@@ -21,8 +20,8 @@ export default function Projects() {
               Projects
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-gray-950 md:text-xl">
-              I'd like to share some of my key projects that highlight my skills
-              and experience.
+              I&#39;d like to share some of my key projects that highlight my
+              skills and experience.
             </p>
           </div>
 

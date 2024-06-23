@@ -1,7 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
-import { BiLogoInstagram } from "react-icons/bi";
-import { AiFillTwitterCircle } from "react-icons/ai";
+
 import { GrInstagram } from "react-icons/gr";
 import { FiGithub } from "react-icons/fi";
 import { TfiLinkedin } from "react-icons/tfi";
@@ -24,10 +22,10 @@ export default function About() {
 
         <div className="flex justify-center gap-8 mt-8  ">
           <div className="shadow-2xl shadow-black flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group  rounded-xl">
-            <img
+            <Image
               className="object-cover w-32 h-32 rounded-full ring-4 ring-slate-700"
               src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-              alt=""
+              alt="Nitin"
             />
 
             <h1 className="mt-4 text-2xl font-semibold text-gray-900 capitalize  ">
