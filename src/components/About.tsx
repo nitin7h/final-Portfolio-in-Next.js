@@ -7,7 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 import Image from "next/image";
 export default function About() {
   return (
-    <section className="mb-10 p-10 ">
+    <section className="mb-10 ">
       <div className="container px-6 py-10 mx-auto">
         <h1 className="text-2xl font-semibold text-center text-gray-900 capitalize lg:text-3xl ">
           About Me
