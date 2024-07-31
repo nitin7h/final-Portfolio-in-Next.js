@@ -26,7 +26,7 @@ export default function Projects() {
 
         <div className=" mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-16">
           {/* start  */}
-          <div className=" space-y-3 p-5 shadow-2xl shadow-black">
+          <div className=" space-y-3 p-5 shadow-lg shadow-black ">
             <span className="inline-block rounded-full bg-gray-100 p-3 text-black">
               <ShoppingCart size={20} />
             </span>
@@ -66,7 +66,7 @@ export default function Projects() {
           </div>
           {/* End  */}
           {/* start  */}
-          <div className=" space-y-3 p-5 shadow-2xl shadow-black">
+          <div className=" space-y-3 p-5 shadow-lg shadow-black">
             <span className="inline-block rounded-full bg-gray-100 p-3 text-black">
               <FaFingerprint size={20} />
             </span>
@@ -105,7 +105,7 @@ export default function Projects() {
           </div>
           {/* End  */}
           {/* start  */}
-          <div className=" space-y-3 p-5 shadow-2xl shadow-black">
+          <div className=" space-y-3 p-5 shadow-lg shadow-black">
             <span className="inline-block rounded-full bg-gray-100 p-3 text-black">
               <FaTelegramPlane size={20} />
             </span>
@@ -145,7 +145,7 @@ export default function Projects() {
           </div>
           {/* End  */}
           {/* start  */}
-          <div className=" space-y-3 p-5 shadow-2xl shadow-black">
+          <div className=" space-y-3 p-5 shadow-lg shadow-black">
             <span className="inline-block rounded-full bg-gray-100 p-3 text-black">
               <Database size={20} />
             </span>
@@ -185,7 +185,7 @@ export default function Projects() {
           </div>
           {/* End  */}
           {/* start  */}
-          <div className=" space-y-3 p-5 shadow-2xl shadow-black">
+          <div className=" space-y-3 p-5 shadow-lg shadow-black">
             <span className="inline-block rounded-full bg-gray-100 p-3 text-black">
               <SiBlockchaindotcom size={20} />
             </span>
@@ -225,7 +225,7 @@ export default function Projects() {
           </div>
           {/* End  */}
           {/* start  */}
-          <div className=" space-y-3 p-5 shadow-2xl shadow-black">
+          <div className=" space-y-3 p-5 shadow-lg shadow-black">
             <span className="inline-block rounded-full bg-gray-100 p-3 text-black">
               <MdOutlineMarkUnreadChatAlt size={20} />
             </span>

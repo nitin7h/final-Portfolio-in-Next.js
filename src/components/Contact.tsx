@@ -22,7 +22,7 @@ export default function Contact() {
       <div className="mx-auto max-w-7xl py-12 md:py-24">
         <div className=" flex justify-center gap-x-4 gap-y-10 ">
           {/* contact from */}
-          <div className="shadow-2xl shadow-black p-5  flex items-center justify-center">
+          <div className="shadow-lg shadow-black p-5  flex items-center justify-center">
             <div className=" px-2 md:px-12 my-10">
               <p className="text-2xl font-bold text-gray-900 md:text-4xl">
                 Get in touch
